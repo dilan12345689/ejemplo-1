@@ -1,7 +1,5 @@
 username = input("Usuario: ").lower()
-password = input("Contraseña: ").lower()
-
-print(username, password)
+password = input("Contraseña: ")
 
 if username == "dilan" and password == "1234":
     print("Acceso concidido")
